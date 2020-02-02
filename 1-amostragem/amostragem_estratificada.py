@@ -17,7 +17,7 @@ print(infert)
 
 print(infert['education'].value_counts())
 
-#exemplo estratificado para retornar 100 registros
+#exemplo estratificado para retornar 100 registros com representatividade em todas as classes.
 #como sabemos que infert tem 248 registros, para ter 100 de amostra
 #temos que usar o indice 0.6 (248*0.6)=148. se retirarmos o 148 do 248, 
 #fica 100, que é a amostra que queremos
